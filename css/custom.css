@@ -1,3 +1,17 @@
+/* 文字渐变遮罩 */
+
+.mask {
+  background-color: #252525;
+  color: #252525;
+  transition: color 0.5s;
+  display: inline-block;
+}
+.mask:hover {
+  color: #ffffff;
+}
+
+/* END 文字渐变遮罩 */
+
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
